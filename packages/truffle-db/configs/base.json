@@ -14,8 +14,14 @@
       "truffle-db/*": ["../src/*"],
       "test/*": ["../test/*"]
     },
-    "rootDir": "../src",
-    "baseUrl": "."
+    "rootDir": "..",
+    "baseUrl": ".",
+    "types": [
+      "express",
+      "jest",
+      "node",
+      "pouchdb"
+    ]
   },
   "include": [
     "src/**/*",
